@@ -1,16 +1,15 @@
 .userList form {
     max-width: 1000px;
     border: 1.5px solid black;
-    padding:  30px;
+    padding: 30px;
     margin: auto;
 }
 
-.userList form input
-.userList form select{
+.userList form input .userList form select {
     width: 100%;
 }
 
-.userList form button{
+.userList form button {
     background-color: aqua;
     padding: 5px 15px;
     margin-top: 15px;
@@ -18,7 +17,8 @@
     font-size: 1.2em;
     cursor: pointer;
 }
-.userList .przyciski button{
+
+.userList .przyciski button {
     background-color: red;
     padding: 5px 15px;
     margin-top: 15px;
@@ -29,15 +29,15 @@
     margin-bottom: 15px;
 }
 
-.userList form button:hover{
-background-color: aquamarine;
+.userList form button:hover {
+    background-color: aquamarine;
 
 }
 
 .userList .list {
     max-width: 1000px;
     border: 1.5px solid black;
-    padding:  30px;
+    padding: 30px;
     margin: auto;
 }
 

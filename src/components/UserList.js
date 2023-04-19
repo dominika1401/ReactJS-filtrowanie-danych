@@ -39,7 +39,7 @@ const UserList = () => {
       filteredUsers = users.filter(user => {
         return user.usertype === "Admin"
       })
-    } else if (e.target.name === 'btnUser') {
+    } else if (e.target.name === 'btnUsers') {
       filteredUsers = users.filter(user => {
         return user.usertype === "User"
       })
@@ -72,7 +72,7 @@ const UserList = () => {
       </form>
       <div className="przyciski">
         <button className='btnAdmin btn' name='btnAdmins' onClick={(e) => filerList(e)}>Wyświetl tylko adminów</button>
-        <button className='btnUser btn' name='btnUsers' onClick={(e) => filerList(e)} >Wyświetl tylko userów</button>
+        <button className='btnUsers btn' name='btnUsers' onClick={(e) => filerList(e)} >Wyświetl tylko userów</button>
         <button className='btnAll btn' name='btnAll' onClick={(e) => filerList(e)}>Wyświetl wszystkich</button>
       </div>
       <div className='list'>
